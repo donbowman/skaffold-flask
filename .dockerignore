@@ -1,2 +1,4 @@
 **/*.swp
 .git
+k8s.yaml
+skaffold.yml

@@ -9,3 +9,8 @@ spec:
     image: donbowman/skaffold-flask
     ports:
     - containerPort: 5000
+    env:
+    - name: FLASK_ENV
+      value: "development"
+    - name: FLASK_DEBUG
+      value: "1"

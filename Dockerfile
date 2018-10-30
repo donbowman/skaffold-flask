@@ -1,7 +1,6 @@
 FROM python:3-alpine
 LABEL maintainer="don@agilicus.com"
 
-ENV FLASK_DEBUG=1
 ENV FLASK_APP=app.py
 
 WORKDIR /app
